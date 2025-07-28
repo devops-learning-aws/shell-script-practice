@@ -1,6 +1,6 @@
 #!/bin/bash
 
-NUMBER = $
+NUMBER=$
 if [NUMBER -gt 10]
 then 
 echo "print grater number $NUMBER "
