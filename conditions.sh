@@ -1,7 +1,7 @@
 #!/bin/bash
 
-NUMBER=$
-if [NUMBER -gt 10]
+NUMBER=$1
+if [ NUMBER -gt 10 ]
 then 
 echo "print grater number $NUMBER "
 else 
