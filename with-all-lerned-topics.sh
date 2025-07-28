@@ -10,7 +10,7 @@ VALIDATE(){
   echo "$2 installation success"
   fi
 }
-if [$USERID -ne 0]
+if ["$USERID" -ne 0]
 then
 echo "please run with superuser access"
 else
