@@ -6,6 +6,7 @@ then
 echo "print grater number $NUMBER "
 else 
 echo "print lesser number $NUMBER"
+
 fi
 
 #an other example 
