@@ -9,9 +9,9 @@ echo "print lesser number $NUMBER"
 fi
 
 #an other example 
-FRUIT = "Apple"
+FRUIT="Apple"
 
-if [FRUIT -eq Apple]
+if [ FRUIT -eq Apple ]
 then 
 echo "Fruit is apple"
 else 
