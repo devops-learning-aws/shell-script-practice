@@ -1,7 +1,7 @@
 #!/bin/bash
 
 NUMBER=$1
-if [ $NUMBER -gt 10 ]
+if [ $NUMBER -gt 10 ];
 then 
 echo "print grater number $NUMBER "
 else 
@@ -11,7 +11,7 @@ fi
 #an other example 
 FRUIT="Apple"
 
-if [ $FRUIT -eq Apple ]
+if [" $FRUIT"="Apple" ]
 then 
 echo "Fruit is apple"
 else 
