@@ -12,7 +12,7 @@ fi
 #an other example 
 FRUIT="Apple"
 
-if [" $FRUIT"="Apple" ]
+if [ "$FRUIT" = "Apple" ];
 then 
 echo "Fruit is apple"
 else 
