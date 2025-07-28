@@ -9,12 +9,17 @@ VALIDATE(){
   else 
   echo "$2 installation success"
   fi
+
 }
-if ["$USERID" -ne 0]
-then
-echo "please run with superuser access"
-else
-echo "you have super user access"
- fi 
+
+
+if [ $USERI -ne 0 ]
+then 
+echo "please run with super user access "
+
+else 
+echo "you are a super user "
+
+fi
  dnf install mysql -y
  VALIDATE $? "Installing"
